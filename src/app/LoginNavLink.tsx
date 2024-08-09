@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 
 import { supabaseUserClientComponentClient } from '@/supabase-clients/supabaseUserClientComponentClient';

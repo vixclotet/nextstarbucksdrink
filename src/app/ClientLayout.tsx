@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { Toaster } from 'react-hot-toast';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';

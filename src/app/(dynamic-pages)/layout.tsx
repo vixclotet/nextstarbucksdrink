@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { DynamicLayoutProviders } from './DynamicLayoutProviders';
 import { AppSupabaseClient } from '@/types';
 import { createSupabaseServerComponentClient } from '@/supabase-clients/createSupabaseServerComponentClient';
@@ -25,8 +26,8 @@ export const metadata = {
   icons: {
     icon: '/images/logo-black-main.ico',
   },
-  title: 'Nextbase Open source',
-  description: 'Nextbase Open source',
+  title: 'Next Starbucks Drink',
+  description: 'meet other starbucks lovers and share your favorite drinks',
 };
 
 export default async function RootLayout({
