@@ -9,6 +9,7 @@ import { ExternalNavigation } from './Navbar';
 //import Footer from '@/components/tailwind/Footer';
 import { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ['latin'],
@@ -99,6 +100,7 @@ export default function RootLayout() {
     <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
       <head />
       <body>
+        <Analytics />
         <div className="flex pt-2 flex-col min-h-screen bg-white dark:bg-gray-900">
           <ExternalNavigation />
 
